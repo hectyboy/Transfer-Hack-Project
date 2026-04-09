@@ -1,0 +1,242 @@
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#revelle {
+    width: 325px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS';
+    margin: 0;
+    position: absolute;
+    left: 23%;
+}
+
+#muir {
+    width: 325px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS';
+    margin: 0;
+    position: absolute;
+    top: 24.75%;
+    left: 23%;
+}
+
+#marshall {
+    width: 325px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS';
+    margin: 0;
+    position: absolute;
+    top: 30.25%;
+    left: 23%;
+}
+
+#goody {
+    width: 325px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS';
+    margin: 0;
+    position: absolute;
+    top: 35.75%;
+    left: 23%;
+}
+
+#warren {
+    width: 325px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS';
+    margin: 0;
+    position: absolute;
+    top: 41.25%;
+    left: 23%;
+}
+
+#roosevelt {
+    width: 325px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS';
+    margin: 0;
+    position: absolute;
+    top: 46.75%;
+    left: 23%;
+}
+
+#sixth {
+    width: 325px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS';
+    margin: 0;
+    position: absolute;
+    top: 52.25%;
+    left: 23%;
+}
+
+#seventh {
+    width: 325px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS';
+    margin: 0;
+    position: absolute;
+    top: 57.75%;
+    left: 23%;
+}
+
+#seventhdeli {
+    width: 325px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS';
+    margin: 0;
+    position: absolute;
+    top: 63.25%;
+    left: 23%;
+}
+
+#clubmed {
+    width: 325px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS';
+    margin: 0;
+    position: absolute;
+    top: 68.75%;
+    left: 23%;
+}
+
+#foodworx {
+    width: 325px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS';
+    margin: 0;
+    position: absolute;
+    top: 74.25%;
+    left: 23%;
+}
+
+#audrey-cafe {
+    width: 325px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS';
+    margin: 0;
+    position: absolute;
+    top: 79.75%;
+    left: 23%;
+}
+
+#sunshine {
+    width: 325px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS';
+    margin: 0;
+    position: absolute;
+    top: 85.25%;
+    left: 23%;
+}
