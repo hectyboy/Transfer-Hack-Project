@@ -1,0 +1,25 @@
+h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 50px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+#start-quiz {
+    text-align: center;
+    width: 150px;
+    display: block;
+    margin: 30px auto;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    background-color: #006fe6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
