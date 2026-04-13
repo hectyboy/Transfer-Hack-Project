@@ -1,3 +1,12 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: transparent;
+}
+
 body {
   margin: 0;
   background: white;
@@ -5,41 +14,57 @@ body {
 
 .page1 {
   position: relative;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   overflow: hidden;
 
-  background-image: url("pics/page1_background.png");
+  background-image: url("pics/background.png");
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
 }
 
-.page1 > img {
+/* SILVER BAR */
+.silver-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 3;
+}
+
+.bar-bg {
+  display: block;
+  width: 100%;
+}
+
+/* images inside the silver bar */
+.silver-bar img:not(.bar-bg) {
   position: absolute;
 }
 
-/* LOGOS */
+/* LOGOS INSIDE BAR */
 .ucsd-logo {
-  top: -8%;
-  left: 4%;
-  width: 30%;
+  top: -100%;
+  left: 2%;
+  width: 40%;
 }
 
 .quiz-logo {
-  top: -1%;
-  right: 0%;
+  top: 4%;
+  right: 2%;
   width: 35%;
 }
 
 .king-triton {
-  top: -1%;
+  top: 0%;
   left: 1%;
   width: 9%;
 }
 
 /* WELCOME TEXT */
 .welcome {
+  position: absolute;
   top: 7%;
   left: 25%;
   width: 50%;
