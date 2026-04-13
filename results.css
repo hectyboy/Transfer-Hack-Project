@@ -9,3 +9,22 @@ p {
     font-size: 1.2em;
     margin-top: 10px;
 }
+
+.results {
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #333;
+}
+
+#reset {
+    width: 100px;
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+    background-color: #006fe6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
