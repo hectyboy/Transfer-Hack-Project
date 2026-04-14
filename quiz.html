@@ -5,9 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Quiz</title>
         <link rel="stylesheet" href="quiz.css">
+        <script src="quiz.js"></script>
     </head>
     <body>
-
         <div class="monkey-box">
             <img src="pics/page2_monkey.png" alt="Monkey Image" class="monkey-image">
         </div>
@@ -36,7 +36,7 @@
                     <option value="communications">Communications</option>
                     <option value="undeclared">Undeclared</option>
                 </select>
-                <h3>Question 2: What are your interests?</h3>
+                <h3>Question 2: What are your interests? (Can select multiple)</h3>
                 <form>
                     <input type="checkbox" id="sports" name="interests" value="sports">
                     <label for="sports"> Sports</label><br>
@@ -47,9 +47,10 @@
                     <input type="checkbox" id="technology" name="interests" value="technology">
                     <label for="technology"> Technology</label><br>
                 </form>
+                <div class="prompt">
+                    <div id="message" name="message-label" rows="1" columns="100"></div>                </div>
             </div>
-        
-        <a href="./results.html" class ="submit-quiz" id="submit-quiz">Submit Quiz</a>
+        <a href="./results.html" class="submit-quiz" id="submit-quiz" onclick="return validateForm()">Submit Quiz</a>
         </div>
     </body>
 </html>
