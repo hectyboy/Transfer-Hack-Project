@@ -75,9 +75,13 @@ input[type="checkbox"]:checked {
 }
 
 form label {
-    font-size: 28px; 
+    font-size: 30px; 
     vertical-align: middle;
     cursor: pointer;
+      color: #1d2f73;
+        font-family: "Source Serif 4", serif;
+
+
 }
 
 .monkey-box {
