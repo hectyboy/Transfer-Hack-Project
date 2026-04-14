@@ -22,9 +22,6 @@ h3 {
 
 .box {
   text-align: center;
-
-
-
 }
 
 .big-box {
@@ -58,7 +55,7 @@ h3 {
 }
 
 input[type="checkbox"] {
-    appearance: none;
+    /* appearance: none; */
     -webkit-appearance: none;
     width: 20px;
     height: 20px;
@@ -78,10 +75,8 @@ form label {
     font-size: 30px; 
     vertical-align: middle;
     cursor: pointer;
-      color: #1d2f73;
-        font-family: "Source Serif 4", serif;
-
-
+    color: #1d2f73;
+    font-family: "Source Serif 4", serif;
 }
 
 .monkey-box {
