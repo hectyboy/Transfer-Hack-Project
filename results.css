@@ -28,14 +28,25 @@ p {
 }
 
 #reset {
-    width: 100px;
-    text-align: center;
-    display: block;
-    margin: 20px auto;
-    background-color: #006fe6;
-    color: white;
-    padding: 10px 20px;
+/* Hide the default link text and blue box */
+    background-color: transparent;
     border: none;
+    color: transparent; 
+    text-decoration: none;
+
+    /* Apply the image-based styling */
+    display: block;
+    margin: 30px auto;
+    width: 30%; 
+    aspect-ratio: 3 / 1; 
+    
+    /* Using your existing asset */
+    background-image: url("pics/page1_start.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    cursor: pointer;
 }
 
 .results-box {
@@ -67,3 +78,4 @@ p {
     width: 35%;
     left: 64%;
 }
+
