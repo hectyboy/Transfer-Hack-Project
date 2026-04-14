@@ -1,3 +1,9 @@
+body{
+      background-image: url("pics/background.png");
+        background-size: cover;
+        background-position: top center;
+        background-repeat: no-repeat;
+}
 h1 {
     text-align: center;
     color: #333;
@@ -5,25 +11,83 @@ h1 {
 
 h3 {
     text-align: center;
-    color: #555;
+    color: #1d2f73;
+    font-size: 40px;
 }
 
 #major {
     text-align: center;
-    font-size: 1.2em
+    font-size: 32px;
 }
 
 .box {
   text-align: center;
+
+
+
+}
+
+.big-box {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+  border: 10px solid #1d2f73;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 #submit-quiz {
-    width: 100px;
-    text-align: center;
-    display: block;
-    margin: 20px auto;
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
+/* Hide the default text and button styling */
+    background-color: transparent;
     border: none;
+    color: transparent; 
+    text-decoration: none;
+
+    /* Apply the image-based styling */
+    display: block;
+    margin: 40px auto;
+    width: 30%; 
+    aspect-ratio: 3 / 1; 
+    
+    background-image: url("pics/page2_nextquestion.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    cursor: pointer;
+
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #555;
+    border-radius: 50%; 
+    outline: none;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #2196F3;
+    border-color: #2196F3;
+}
+
+form label {
+    font-size: 28px; 
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.monkey-box {
+  position: absolute;
+  top: 55%;
+  right: 50%;
+  width: 50%;
+}
+
+.monkey-image {
+  width: 500px;
+  display: block;
 }

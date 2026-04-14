@@ -7,42 +7,49 @@
         <link rel="stylesheet" href="quiz.css">
     </head>
     <body>
-        <h1>Quiz</h1>
-        <h3>Question 1: What is your major?</h3>
-        <div class="box">
-            <select name="major" id="major">
-                <option value="major-select">--Select Your Major--</option>
-                <option value="art_and_humanities">Arts & Humanities</option>
-                <option value="science">Science</option>
-                <option value="engineering">Engineering</option>
-                <option value="technology">Technology</option>
-                <option value="mathematics">Mathematics</option>
-                <option value="business">Business</option>
-                <option value="social_sciences">Social Science</option>
-                <option value="music">Music</option>
-                <option value="poltical_science">Political Science</option>
-                <option value="economics">Economics</option>
-                <option value="psychology">Psychology</option>
-                <option value="public_health">Public Health</option>
-                <option value="theater">Theater</option>
-                <option value="visual_arts">Visual Arts</option>
-                <option value="urban_studies">Urban Studies</option>
-                <option value="music">Music</option>
-                <option value="communications">Communications</option>
-                <option value="undeclared">Undeclared</option>
-            </select>
-            <h3>Question 2: What are your interests?</h3>
-            <form>
-                <input type="checkbox" id="sports" name="interests" value="sports">
-                <label for="sports"> Sports</label><br>
-                <input type="checkbox" id="music" name="interests" value="music">
-                <label for="music"> Music</label><br>
-                <input type="checkbox" id="art" name="interests" value="art">
-                <label for="art"> Art</label><br>
-                <input type="checkbox" id="technology" name="interests" value="technology">
-                <label for="technology"> Technology</label><br>
-            </form>
+
+        <div class="monkey-box">
+            <img src="pics/page2_monkey.png" alt="Monkey Image" class="monkey-image">
         </div>
-        <a href="./results.html" id="submit-quiz">Submit Quiz</a>
+        <div class="big-box">
+            <h1>Quiz</h1>
+            <h3>Question 1: What is your major?</h3>
+            <div class="box">
+                <select name="major" id="major">
+                    <option value="major-select">--Select Your Major--</option>
+                    <option value="art_and_humanities">Arts & Humanities</option>
+                    <option value="science">Science</option>
+                    <option value="engineering">Engineering</option>
+                    <option value="technology">Technology</option>
+                    <option value="mathematics">Mathematics</option>
+                    <option value="business">Business</option>
+                    <option value="social_sciences">Social Science</option>
+                    <option value="music">Music</option>
+                    <option value="poltical_science">Political Science</option>
+                    <option value="economics">Economics</option>
+                    <option value="psychology">Psychology</option>
+                    <option value="public_health">Public Health</option>
+                    <option value="theater">Theater</option>
+                    <option value="visual_arts">Visual Arts</option>
+                    <option value="urban_studies">Urban Studies</option>
+                    <option value="music">Music</option>
+                    <option value="communications">Communications</option>
+                    <option value="undeclared">Undeclared</option>
+                </select>
+                <h3>Question 2: What are your interests?</h3>
+                <form>
+                    <input type="checkbox" id="sports" name="interests" value="sports">
+                    <label for="sports"> Sports</label><br>
+                    <input type="checkbox" id="music" name="interests" value="music">
+                    <label for="music"> Music</label><br>
+                    <input type="checkbox" id="art" name="interests" value="art">
+                    <label for="art"> Art</label><br>
+                    <input type="checkbox" id="technology" name="interests" value="technology">
+                    <label for="technology"> Technology</label><br>
+                </form>
+            </div>
+        
+        <a href="./results.html" class ="submit-quiz" id="submit-quiz">Submit Quiz</a>
+        </div>
     </body>
 </html>

@@ -1,3 +1,11 @@
+body{
+          background-image: url("pics/background.png");
+        background-size: cover;
+        background-position: top center;
+        background-repeat: no-repeat;
+}
+
+
 h1 {
     text-align: center;
     font-size: 2.5em;
@@ -27,4 +35,12 @@ p {
     color: white;
     padding: 10px 20px;
     border: none;
+}
+
+.results-box {
+    display: block;
+  margin: 0 auto;
+  width: 60%;
+  border: 10px solid #1d2f73;
+  background-color: rgba(255, 255, 255, 0.8);
 }
