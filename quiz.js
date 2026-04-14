@@ -24,5 +24,7 @@ function validateForm() {
         alert("Please select at least one interest.");
         return false;
     }
+    localStorage.setItem("major", major);
+    localStorage.setItem("interests", JSON.stringify(interests));
     return true;
 }
